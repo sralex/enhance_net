@@ -34,7 +34,7 @@ Open a terminal, run the built container and build the code.
 sudo docker-compose up --build
 ```
 
-wait until installation is complete (the first time it can take a couple of minutes), then go to  localhost:8000 in your browser and enjoy!.
+wait until installation is complete (the first time it can take a couple of minutes), then go to localhost:9000 in your browser and enjoy!.
 
 Debug mode (python 3.6 >= strongly recommended).
 
@@ -44,3 +44,6 @@ conda env create -f environment.yml
 conda activate keras_gunicorn_nginx_flask
 python main.py
 ```
+
+Demo:<br/>
+![image](https://github.com/sralex/enhance_net/blob/master/demo.png)
