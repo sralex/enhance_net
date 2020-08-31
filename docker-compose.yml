@@ -4,7 +4,7 @@
     web:
       build: .
       container_name: flask-gunicorn-enhance-net
-      restart: always
+      restart: on-failure
       ports:
         - "${PORT}:${PORT}"
     nginx:
